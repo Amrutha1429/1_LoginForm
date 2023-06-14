@@ -15,7 +15,7 @@ def loginn(request):
         if user is not None:
             login(request,user)
 
-            return HttpResponse("login")
+            return HttpResponse("...LOGIN SUCCESSFUL...")
         else:
             return redirect('signup')
 
